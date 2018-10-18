@@ -10,10 +10,10 @@
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
 #include <iostream>
 
 #include "Window.hpp"
+#include "ResourceLoader.hpp"
 
 //Screen dimensions
 const unsigned int SCR_WIDTH = 800;
@@ -76,6 +76,9 @@ int main() {
 		
 	}
 
+	//Deallocate resources
+	ResourceLoader::clear();
+	
 	glfwTerminate();
 	return 0;
 }

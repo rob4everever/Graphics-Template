@@ -15,6 +15,7 @@
 
 class ResourceLoader {
 
+public:
 	//Maps to store the resources (shaders and textures <Resource Name><Resource>)
 	static std::map<std::string, Shader> shaders;
 	static std::map<std::string, Texture2D> textures;
