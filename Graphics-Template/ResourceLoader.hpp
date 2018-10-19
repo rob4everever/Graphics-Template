@@ -10,8 +10,8 @@
 #include <map>
 #include <string>
 
-#include "Texture.hpp";
-#include "Shader.hpp";
+#include "Texture.hpp"
+#include "Shader.hpp"
 
 class ResourceLoader {
 
